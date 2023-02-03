@@ -4,7 +4,6 @@ Add a `.env` file to the root of the project with the following contents:
 
 ```
   VITE_APP_NAME="My Chatbot Name"
-  VITE_AGHQ_ENDPOINT=https://app.agent-hq.io
   VITE_AGHQ_API_ACCESS_TOKEN=your_aghq_api_access_token
   VITE_AGHQ_AGENT_ID=your_aghq_agent_id
 ```
