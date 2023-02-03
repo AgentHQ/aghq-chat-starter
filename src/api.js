@@ -1,6 +1,9 @@
 import express from "express";
 
-const endpoint = import.meta.env.VITE_AGHQ_ENDPOINT;
+let endpoint = "http://app.agent-hq.io";
+if (import.meta.env.VITE_AGHQ_ENDPOINT) {
+  endpoint = import.meta.env.VITE_AGHQ_ENDPOINT;
+}
 
 const api_access_token = import.meta.env.VITE_AGHQ_API_ACCESS_TOKEN;
 
