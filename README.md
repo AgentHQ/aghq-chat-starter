@@ -8,8 +8,6 @@ Add a `.env` file to the root of the project with the following contents:
   VITE_AGHQ_AGENT_ID=your_aghq_agent_id
 ```
 
-If deploying, replace the
-
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
