@@ -1,6 +1,6 @@
 import express from "express";
 
-let endpoint = "http://app.agent-hq.io";
+let endpoint = "https://app.agent-hq.io";
 if (import.meta.env.VITE_AGHQ_ENDPOINT) {
   endpoint = import.meta.env.VITE_AGHQ_ENDPOINT;
 }
